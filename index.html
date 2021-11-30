@@ -1,100 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Gymshark 2.0</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/gymshark.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="jouw naam" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-</head>
+    <title>Gymshark 2.0</title>
 
-<body>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/gymshark.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <div class="nav"></div>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
 
-	<section class="hero" style="background-image: url('images/landingsfoto.jpeg')">
-    <div class="overlay"></div>
-	    <div class="container">
-	       <div class="img-holder">
-	           <img src="images/blackfriday.png" alt="logowhistlist">
-              
-               <div class="buttons">
-                   <a href="#" class="btn button1 mr-10">aan de slag!</a>
-                   <a href="#" class="btn button2 ml-10">vragen?</a>
-               </div>
-               
-        </div>
-	    </div>
-	</section>
-	
-	<section class="featured">
-	    <div class="container">
-	        <div class="title">
-	            <h2></h2>
-	        </div>
-	    </div>
-	</section>
-	
-	<section class="cta background-position"  style="background-image: url('images/3guys.jpeg')">
-	    <div class="wrapper">
-           <div class="content">
-                <h2>MICROPRINTS VOOR<br> MAXIMAAL COMFORT</h2>
-               <a href="#" class="btn button3">shop nu</a>
-           </div>
-	    </div>
-	</section>
-	
-	<section class="shop">
-        <div class="wrapper">
-            <div class="items">
-                <div class="item">
-                    <div class="item-in background-position" style="background-image: url('images/Shop_womens_9839e90a-c15f-42d6-be1f-e98f047d1bbc_1440x.jpeg')">
-                        <h3>Shop <br> Dames</h3>
-                        <a href="#" class="btn button4">shop nu</a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item-in background-position" style="background-image: url('images/Shop_womens_9839e90a-c15f-42d6-be1f-e98f047d1bbc_1440x.jpeg')">
-                        <h3>Shop <br> Heren</h3>
-                        <a href="#" class="btn button4">shop nu</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</section>
-	
-	<section class="shop bg-grey">
-        <div class="wrapper">
-            <div class="items">
-                <div class="item">
-                    <div class="item-in background-position" style="background-image: url('images/Discount.jpeg')">
-                       <div class="overlay"></div>
-                        <h4>Studentenkorting</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item-in background-position" style="background-image: url('images/Discount.jpeg')">
-                       <div class="overlay"></div>
-                        <h4>Klarna</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</section>
+    <main>
+      <section class="hero">
+        <img
+          src="images/blackfriday.png"
+          alt="Built your Black Friday whishlist"
+        />
+        <a href="#" class="button">aan de slag!</a>
+        <a href="#" class="button">vragen?</a>
+      </section>
 
-    <footer>
-    
-    </footer>
-    
-	<script src="scripts/script.js"></script>
-</body>
-	
+      <section class="call-to-action">
+          <h2>Micorprints voor maximaal comfort</h2>
+          <a href="#" class="button">shop nu</a>
+      </section>
+
+      <section class="categories">
+          <ol>
+              <li>
+                  <a href="#">
+                      Shop Dames
+                      <span class="button">Shop nu</span>
+                  </a>
+                </li>
+              <li>
+                <a href="#">
+                    Shop Heren
+                    <span class="button">Shop nu</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                    Studentenkorting
+                    <span class="button">Lees meer</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                    Klarna
+                    <span class="button">Lees meer</span>
+                </a>
+              </li>
+          </ol>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
