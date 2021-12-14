@@ -5,7 +5,7 @@
     <meta name="author" content="jouw naam" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Gymshark 2.0</title>
+    <title>Gymshark 3.0</title>
 
     <link href="styles/style.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="images/gymshark.png" />
@@ -19,55 +19,149 @@
 
   <body>
     <header>
-      <nav></nav>
+      <h1>Gymshark</h1>
+
+      <nav aria-role="menu">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./images/user.svg" alt=" " aria-hidden="true" />
+              Mijn Account
+            </a>
+          </li>
+          <li>Blog</li>
+          <li>Nieuwsbrief</li>
+          <li>Hulp</li>
+          <li>
+            <a href="#">
+              <img src="./images/dutch.png" alt=" " aria-hidden="true" /> 
+              The Netherlands
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="main-nav">
+        <img src="images/logo.svg" alt="Gymshark icon" />
+
+        <ul>
+          <li>
+            <a href="#" class="nav-button">Dames</a>
+          </li>
+          <li>
+            <a href="#" class="nav-button">Heren</a>
+          </li>
+          <li>
+            <a href="#" class="nav-button">Black Friday</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <img src="images/search.svg" alt="search icon" />
+          </li>
+          <li>
+            <img src="images/user.svg" alt="search icon" />
+          </li>
+          <li>
+            <img src="images/shopping-bag.svg" alt="search icon" />
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <section class="hero">
+    <section class="titel">
+        <h2>Black Friday</h2>
+    </section>
+      <section class="hero overlay">
         <img
           src="images/blackfriday.png"
           alt="Built your Black Friday whishlist"
         />
-        <a href="#" class="button">aan de slag!</a>
-        <a href="#" class="button">vragen?</a>
+        <a href="#" class="button">Dames</a>
+        <a href="#" class="button">Heren</a>
       </section>
 
       <section class="call-to-action">
-          <h2>Micorprints voor maximaal comfort</h2>
-          <a href="#" class="button">shop nu</a>
+        <h2>NIEUWE HEBBERIJEN</h2>
+        <a href="#" class="button">Shop nu</a>
       </section>
 
       <section class="categories">
-          <ol>
-              <li>
-                  <a href="#">
-                      Shop Dames
-                      <span class="button">Shop nu</span>
-                  </a>
-                </li>
-              <li>
-                <a href="#">
-                    Shop Heren
-                    <span class="button">Shop nu</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                    Studentenkorting
-                    <span class="button">Lees meer</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                    Klarna
-                    <span class="button">Lees meer</span>
-                </a>
-              </li>
-          </ol>
+        <ol>
+          <li>
+            <a href="#">
+              Shop Dames
+              <span class="button">Shop nu</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Shop Heren
+              <span class="button">Shop nu</span>
+            </a>
+          </li>
+          <li class="overlay">
+            <a href="#">
+              Studentenkorting
+              <span class="button">Lees meer</span>
+            </a>
+          </li>
+          <li class="overlay">
+            <a href="#">
+              Klarna
+              <span class="button">Lees meer</span>
+            </a>
+          </li>
+        </ol>
       </section>
     </main>
 
-    <footer></footer>
+    <section class="content">
+      <h3>Meer dan alleen sportkleding</h3>
+      <p>
+        De Gymshark community zet zich in voor de ontwikkelingen van
+        conditionering en de dingen die we vandaag doen om ons voor te bereiden
+        op morgen. Als het gaat om maximaal presteren, mag er geen belemmering
+        zijn - vooral niet door je sportkleding. Dus alle sportkleding en
+        accessoires, die we voor je ontwerpen, wordt er rekening gehouden met
+        jouw progressie en de beste resultaten. We willen dat je over de meest
+        comfortabele sport hoodies, de meest ondersteunende naadloze leggings en
+        de meest innovatief ontworpen trainingsshirts beschikt - welke gemaakt
+        zijn om gemakkelijk in te bewegen wanneer het er echt toe doet.
+      </p>
+      <p>
+        Game changing sportkleding. Het zit niet alleen in het ontwerp, het zit
+        ook in jou .
+      </p>
+
+      <p></p>
+    </section>
+
+    <section class="nieuwsletter">
+      <h4>E-mails ontvangen die je wel leest, met exclusieve deals enzo?</h4>
+      <a href="#" class="button">schrijf je in</a>
+    </section>
+
+    <footer data-version="mobile">
+        <details>
+            <summary>Help</summary>
+            <ul>
+                <li>FAQ</li>
+                <li>Levering & retouren</li>
+                <li>Retour Aanvragen</li>
+                <li>Bestellingen</li>
+                <li>Namaak Indienen</li>
+            </ul>
+        </details>
+    </footer>
+    
+    <footer data-version="desktop">
+        <ul>
+            <li>FAQ</li>
+        </ul>
+    </footer>
 
     <script src="scripts/script.js"></script>
   </body>
