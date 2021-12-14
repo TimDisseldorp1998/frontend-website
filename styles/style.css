@@ -80,18 +80,14 @@ header {
   width: 100vw;
 }
 
-header h1 {
-  font-size: 0.1px;
-  opacity: 0;
-}
-
-main h2 {
-  font-size: 0.1px;
-  opacity: 0;
-}
-
-main .call-to-action h2 {
-  opacity: 1;
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 nav[aria-role="menu"] {

@@ -84,5 +84,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 3. Zorgt voor witruimte tussen rijen en kolommen in een raster, flex en meerkolomslayouts: https://css-tricks.com/almanac/properties/g/gap/
 4. CSS-tricks hulp met verschil tussen em en rem: https://css-tricks.com/confused-rem-em/
 5. Het bouwen van een responsieve navigatiebalk en hamburgermenu bouwen met HTML, CSS en Javascript: https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+6. Media queries & flexbox & grid layout & microinteraction https://codepen.io/joostf/pen/MOxQex
+7. Het verbergen van content: https://www.a11yproject.com/posts/how-to-hide-content/
 
 </details>
