@@ -24,42 +24,32 @@
          <h1>Gymshark</h1>
      </section>
 
-      <nav aria-role="menu">
-        <ul>
-          <li>
-            <a href="#">
-              <img src="./images/user.svg" alt=" " aria-hidden="true" />
-              Mijn Account
-            </a>
+     <section class="topbar">
+        <ul class="topbar__container">
+          <li class="topbar__item">
+            <a href="#" class="topbar__link"><img src="./images/user.svg"><span class="topbar__nl">Mijn Account</span></a> 
           </li>
-          <li>
-            <a href="#">
-              Blog
-            </a>
+          <li class="topbar__item">
+            <a href="#" class="topbar__link">Blog</a>
           </li>
-          <li>
-            <a href="#">
-              Nieuwsbrief
-            </a>
+          <li class="topbar__item">
+            <a href="#" class="topbar__link">Nieuwsbrief</a>
           </li>
-          <li>
-            <a href="#">
-              Hulp
-            </a>
+          <li class="topbar__item">
+            <a href="#" class="topbar__link">Hulp</a>
           </li>
-          <li>
-            <a href="#">
-              <img src="./images/dutch.png" alt=" " aria-hidden="true" /> 
-              The Netherlands
-            </a>
+          <li class="topbar__item">
+            <a href="#" class="topbar__link"><img src="./images/dutch.png"><span class="topbar__nl">The Netherlands</span></a>
           </li>
         </ul>
-      </nav>
+     </section>
 
       <nav class="main-nav">
-        <img src="images/logo.svg" alt="Gymshark icon" />
+        <img class="logo-gs" src="images/logo.svg" alt="Gymshark icon" />
 
-        <ul>
+        <img src="images/hamburger-menu.svg" class="hamburger-menu js-hamburger">
+
+        <ul class="nav-pages js-menu">
           <li>
             <a href="#" class="nav-button">Dames</a>
           </li>
@@ -71,7 +61,7 @@
           </li>
         </ul>
 
-        <ul>
+        <ul class="nav-icons">
           <li>
             <a href="#">
              <img src="images/search.svg" alt="search icon" />   
@@ -88,6 +78,7 @@
             </a>
           </li>
         </ul>
+
       </nav>
     </header>
 
@@ -107,8 +98,16 @@
       </section>
 
       <section class="call-to-action">
-        <h2>NIEUWE HEBBERIJEN</h2>
-        <a href="#" class="button">Shop nu</a>
+        <h2>Nieuwe Hebberijen</h2>
+        <p>Relaxen is een vibe</p>
+        <a href="#" class="button">Shop dames</a>
+        <a href="#" class="button">Shop heren</a>
+      </section>
+      
+      <section class="hero-nieuwsbrief">
+        <h2>Meld je aan voor de nieuwsbrief en ontvang eenmalig 10% korting</h2>
+        <a href="#" class="button">Ja, graag</a>
+        <a href="#" class="button">FAQ</a>
       </section>
 
       <section class="categories">
@@ -167,7 +166,7 @@
       <a href="#" class="button">schrijf je in</a>
     </section>
 
-    <footer data-version="mobile">
+    <footer>
         <details>
             <summary>Help</summary>
             <ul>
@@ -178,12 +177,168 @@
                 <li>Namaak Indienen</li>
             </ul>
         </details>
-    </footer>
-    
-    <footer data-version="desktop">
-        <ul>
-            <li>FAQ</li>
-        </ul>
+
+        <details>
+            <summary>Mijn account</summary>
+            <ul>
+                <li>Inloggen</li>
+                <li>Registreer</li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Pagina's</summary>
+            <ul>
+                <li>Gymshark Central</li>
+                <li>Banen</li>
+                <li>Over Ons</li>
+                <li>Transparency Report</li>
+            </ul>
+        </details>
+
+        <section>
+            <h3>MEER VAN GYMSHARK</h3>
+        </section>
+
+        <section class="slider">
+            <ol class="slider__container">
+                <li class="slider-item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="slider-item">
+                    <a href="#">Nieuwsletter</a>
+                </li>
+                <li class="slider-item">
+                    <a href="#">Gymshark training</a>
+                </li>
+            </ol>
+        </section>
+
+        <section class="social">
+            <ul class="social__container">
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/discord.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/facebook.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/pinterest.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/youtube.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/instagram.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/twitter.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/tiktok.svg" alt="#" />
+                    </a>
+                </li>
+            </ul>
+        </section>
+       
+        <section class="taal">
+            <ul class="taal__container">
+                <li class="taal__item">
+                    <a href="#" class="taal__link">
+                        <img src="./images/dutch.png"><span class="taal__nl">
+                            The Netherlands</span></a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="links">
+            <ul class="links__container">
+                <li class="links__item">
+                    <a href="#">
+                        Terms and Conditions
+                    </a>
+                </li>
+                <li class="links__item">
+                    <a href="#">
+                        Terms of Use
+                    </a>
+                </li>
+                <li class="links__item">
+                    <a href="#">
+                        Privacy Verklaring
+                    </a>
+                </li>
+                <li class="links__item">
+                    <a href="#">
+                        Cookie beleid
+                    </a>
+                </li>
+                <li class="links__item">
+                    <a href="#">
+                        Modern Slavery
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="bankieren">
+            <ul class="bankieren__container">
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/visa-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/mastercard-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/amex-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/paypal-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/applepay-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/ideal-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/klarna.svg" alt="#" />
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="last-line">
+            <a>
+                © 2021 | Gymshark Limited | Alle Rechten Voorbehouden | Be a visionary
+            </a>
+        </section>
     </footer>
 
     <script src="scripts/script.js"></script>
