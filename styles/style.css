@@ -31,12 +31,18 @@ h2 {
 }
 
 h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h4 {
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-h4 {
+h5 {
     font-size: 0.9rem;
     font-weight: 300;
 }
@@ -236,6 +242,10 @@ nav.main-nav ul li img {
     position: relative;
     padding: 12rem 2rem;
     margin-top: 1.5rem;
+}
+
+.hero-nieuwsbrief h3 {
+    color: #fff;
 }
 
 .hero-nieuwsbrief a:nth-of-type(2) {
@@ -536,7 +546,7 @@ footer .bankieren img {
 /* Breakpoint #1 */
 
 @media screen and (max-width: 990px) {
-    h2 {
+    h2, h3 {
         font-size: 1.875rem;
     }
 
@@ -597,7 +607,7 @@ footer .bankieren img {
 /* Breakpoint #2 */
 
 @media screen and (max-width: 700px) {
-    h2 {
+    h2, h3 {
         font-size: 1.5rem;
         line-height: 2.25rem;
     }
