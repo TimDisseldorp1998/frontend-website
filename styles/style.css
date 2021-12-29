@@ -142,6 +142,7 @@ nav.main-nav ul {
     padding: 0;
     margin: 0;
     width: max-content;
+    font-weight: 600;
 }
 
 nav.main-nav ul li img {
@@ -490,6 +491,48 @@ footer .bankieren img {
     line-height: 1.25rem;
 }
 
+/* filter */
+.filter {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+
+.filter__title {
+    padding: 10px 20px;
+}
+
+.filter-dropdown {
+    padding: 10px 15px;
+    color: gray;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+}
+
+.filter-dropdown:hover {
+    background-color: lightgray;
+}
+
+.filter-dropdown__container {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: white;
+}
+
+.filter-dropdown__container--open {
+    display: block;
+}
+
+.filter-dropdown__item {
+    list-style: none;
+}
+
 /* Breakpoint #1 */
 
 @media screen and (max-width: 990px) {
@@ -532,7 +575,7 @@ footer .bankieren img {
         top: 5rem;
         z-index: 1;
         background-color: white;
-        padding: 1.25rem;
+        padding: 1.5rem;
     }
 
     .hamburger-menu {
@@ -541,13 +584,14 @@ footer .bankieren img {
     }
 
     .nav-pages.nav-pages--open {
-        display: flex;
+        display: flex !important;
     }
     
     .categories ol li a {
-        font-size: 1.5rem;
+    font-size: 1.5rem;
     }
 }
+
 
 
 /* Breakpoint #2 */
@@ -596,6 +640,256 @@ footer .bankieren img {
     }
 }
 
+/* Heren / first section */
+
+.heren {
+    background: url("../images/heren-web.jpg") center/cover no-repeat;
+    height: 500px;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    padding: 10rem 6rem;
+}
+
+.heren h1 {
+    font-size: 1rem;
+}
+
+.heren h2 {
+    font-size: 2, 5rem;
+    margin: 0;
+}
+
+.heren p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+
+/* filter */
+.filter {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+
+.filter__title {
+    padding: 0.5rem;
+}
+
+.filter__dropdown img {
+    width: 1.5rem;
+    height: 1.2rem;
+    margin-right: 0.3rem;
+    color: gray;
+}
+
+.filter-dropdown {
+    display: flex;
+    padding: 1.5rem;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+}
+
+.filter-dropdown:hover {
+    background-color: lightgray;
+}
+
+.filter-dropdown__container {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: white;
+}
+
+.filter-dropdown__container--open {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    z-index: 99;
+    left: 0px;
+    padding: 0.25rem;
+    align-items: center;
+    justify-content: flex-start;
+    border: 0.1rem solid rgb(231, 231, 231);
+    border-radius: 0.4rem;
+}
+
+.filter-dropdown__item {
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem 3rem;
+    border: solid 0.1rem;
+    margin: 1rem;
+    border-radius: 0.4rem;
+}
+
+/* kleding - sorteren op */
+
+.sorteren-op {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 0.1rem solid rgb(187, 188, 188);
+}
+
+.sorteren-op ul {
+    flex-shrink: 0;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    background: none;
+    color: grey;
+}
+
+.sorteren-op ul:nth-child(1) {
+    color: #000;
+}
+
+.sorteren-op ul li {
+    list-style: none;
+}
+
+/* artikelen van gymshark */
+
+.artikelen {
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+    flex-wrap: wrap;
+    margin: 2rem 1rem;
+}
+
+article {
+    max-width: 23.25%;
+    margin: 0.5%;
+}
+
+article img {
+    max-width: 100%;
+    margin-left: 1rem;
+}
+
+.container {
+    display: flex;
+    margin-top: 1rem;
+    gap: 0.5rem;
+}
+
+.container img {
+    height: 0.8rem;
+}
+
+.korting {
+    font-size: 11px;
+    font-weight: 600;
+    width: 50%;
+    color: rgb(191, 46, 53);
+    text-transform: uppercase;
+}
+
+.new-prijs {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+    width: 50%;
+    text-align: right;
+}
+
+.tekst {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.titel {
+    font-size: 1rem;
+    font-weight: 300;
+    width: 50%;
+    color:
+}
+
+.old-prijs {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #6e6e6e;
+    width: 50%;
+    text-align: right;
+    text-decoration: line-through;
+}
+
+.ondertitel {
+    display: flex;
+    margin: 0.5rem 1rem;
+}
+
+.ondertitel__item {
+    font-size: 0.75rem;
+    color: #6e6e6e;
+}
+
+.artikel-button {
+    align-items: center;
+    background: #fff;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem 3rem;
+    justify-content: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+}
+
+.ml-button {
+    padding: 1rem 2rem;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ba-button {
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    line-height: 2.1rem;
+}
+
+.bekijk-alles p {
+    color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.1rem;
+}
 
 /* Breakpoint #1 */
 
