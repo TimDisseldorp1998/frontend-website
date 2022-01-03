@@ -507,155 +507,6 @@ footer .bankieren img {
     line-height: 1.25rem;
 }
 
-/* filter */
-.filter {
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-    font-weight: bold;
-    text-transform: uppercase;
-    flex-wrap: wrap;
-}
-
-.filter__title {
-    padding: 10px 20px;
-}
-
-.filter-dropdown {
-    padding: 10px 15px;
-    color: gray;
-    cursor: pointer;
-    border-radius: 4px;
-    position: relative;
-}
-
-.filter-dropdown:hover {
-    background-color: lightgray;
-}
-
-.filter-dropdown__container {
-    display: none;
-    position: absolute;
-    top: 30px;
-    left: 0;
-    background-color: white;
-}
-
-.filter-dropdown__container--open {
-    display: block;
-}
-
-.filter-dropdown__item {
-    list-style: none;
-}
-
-/* Breakpoint #1 */
-
-@media screen and (max-width: 990px) {
-    h2, h3 {
-        font-size: 1.875rem;
-    }
-
-    .topbar__item {
-        padding: 0 0.5rem;
-    }
-
-    .topbar__nl {
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        height: 0.01rem;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 0.01rem;
-    }
-
-    .logo-gs {
-        order: 2;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .nav-icons {
-        order: 3;
-    }
-
-    nav.main-nav ul.nav-pages {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 5rem;
-        z-index: 1;
-        background-color: white;
-        padding: 1.5rem;
-    }
-
-    .hamburger-menu {
-        display: block;
-        order: 1;
-    }
-
-    .nav-pages.nav-pages--open {
-        display: flex !important;
-    }
-    
-    .categories ol li a {
-    font-size: 1.5rem;
-    }
-}
-
-
-
-/* Breakpoint #2 */
-
-@media screen and (max-width: 700px) {
-    h2, h3 {
-        font-size: 1.5rem;
-        line-height: 2.25rem;
-    }
-    
-    p {
-        font-size: 0.75rem;
-    }
-
-    .hero {
-        background: url("../images/Dual_option_2_mobile.jpg") center/cover no-repeat;
-        height: 90vh;
-    }
-
-    .hero img {
-        max-height: 8rem;
-        left: 0;
-    }
-    
-    .call-to-action p {
-        font-size: 1rem;
-    }
-    
-    .categories ol li {
-        width: 100%;
-    }
-    
-    .content {
-        margin: 1rem;
-    }
-    
-    .nieuwsletter {
-        padding: 3.5rem;
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    .categories ol li {
-        width: 50%;
-    }
-}
-
 /* Heren / first section */
 
 .heren {
@@ -683,16 +534,42 @@ footer .bankieren img {
     margin: 2rem 0;
 }
 
-/* filter */
-.filter {
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
+/* filter & sorteren */
+
+.filteren-en-sorteren {
+    display: none;
+    padding: 0.5rem;
     font-size: 0.875rem;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+.filter-en-sorteren__title  {
+    left: 0;
+    margin-left: 0.5rem;
+}
+
+.filteren-en-sorteren img {
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+/* filter */
+
+.filter {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.filter-in {
+    display: flex;
     flex-wrap: wrap;
-    margin-left: 2rem;
+    align-items: center;
 }
 
 .filter__title {
@@ -713,16 +590,17 @@ footer .bankieren img {
     cursor: pointer;
     border-radius: 4px;
     position: relative;
+    white-space: nowrap;
 }
 
 .filter-dropdown:hover {
-    background-color: lightgray;
+    background-color: #f4f4f4;
 }
 
 .filter-dropdown__container {
     display: none;
     position: absolute;
-    top: 30px;
+    top: 2rem;
     left: 0;
     background-color: white;
 }
@@ -732,79 +610,48 @@ footer .bankieren img {
     background-color: rgb(245, 245, 245);
     position: absolute;
     z-index: 99;
-    left: 0px;
-    padding: 0.25rem;
+    top: 2.75rem;
     align-items: center;
     justify-content: flex-start;
     border: 0.1rem solid rgb(231, 231, 231);
     border-radius: 0.4rem;
+    padding-right: 2.5rem;
 }
 
 .filter-dropdown__item {
     list-style: none;
     background-color: rgb(255, 255, 255);
-    padding: 0.5rem 3rem;
+    padding: 0.4rem 2.5rem;
     border: solid 0.1rem;
-    margin: 1rem;
+    margin: 0.875rem 0.5rem;
     border-radius: 0.4rem;
-}
-
-/* kleding - sorteren op */
-
-.sorteren-op {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    border-bottom: 0.1rem solid rgb(187, 188, 188);
-}
-
-.sorteren-op ul {
-    flex-shrink: 0;
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-size: 0.875rem;
-    font-weight: 700;
-    line-height: 1.9rem;
-    text-align: center;
-    text-transform: uppercase;
-    position: relative;
-    background: none;
-    color: grey;
-}
-
-.sorteren-op ul:nth-child(1) {
-    color: #000;
-}
-
-.sorteren-op ul li {
-    list-style: none;
 }
 
 /* artikelen van gymshark */
 
 .artikelen {
-    max-width: 100%;
-    background-color: white;
     display: flex;
     flex-direction: row;
-    min-height: 500px;
     flex-wrap: wrap;
-    margin: 2rem 1rem;
+    width: 100%;
 }
 
 article {
-    max-width: 23.25%;
-    margin: 0.5%;
+    width: 25%;
+}
+
+.article-in {
+    padding: 1rem;
 }
 
 article img {
     max-width: 100%;
-    margin-left: 1rem;
 }
 
 .container {
     display: flex;
     margin-top: 1rem;
-    gap: 0.5rem;
+    gap: 0.3rem;
 }
 
 .container img {
@@ -905,6 +752,152 @@ article img {
     align-items: center;
     justify-content: center;
     line-height: 2.1rem;
+}
+
+
+/* Breakpoint #1 */
+
+@media screen and (max-width: 990px) {
+    h2, h3 {
+        font-size: 1.875rem;
+    }
+
+    .topbar__item {
+        padding: 0 0.5rem;
+    }
+
+    .topbar__nl {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 0.01rem;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 0.01rem;
+    }
+
+    .logo-gs {
+        order: 2;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .nav-icons {
+        order: 3;
+    }
+
+    nav.main-nav ul.nav-pages {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 5rem;
+        z-index: 1;
+        background-color: white;
+        padding: 1.5rem;
+    }
+
+    .hamburger-menu {
+        display: block;
+        order: 1;
+    }
+
+    .nav-pages.nav-pages--open {
+        display: flex !important;
+    }
+    
+    .categories ol li a {
+        font-size: 1.5rem;
+    }
+    
+    article {
+        width: 33.333%;
+    }
+    
+    .filter-dropdown__container--open {
+        flex-direction: column;
+    }
+    
+    .titel {
+        font-size: 0.875rem;
+    }
+    
+    .filter, .filter-dropdown {
+        display: none;
+    }
+    
+    .filteren-en-sorteren {
+        display: block;
+        margin-top: 1.5rem;
+    }
+    
+    .ml-button {
+        font-size: 0.875rem;
+    }
+    
+}
+
+
+/* Breakpoint #2 */
+
+@media screen and (max-width: 700px) {
+    h2, h3 {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    
+    p {
+        font-size: 0.75rem;
+    }
+
+    .hero {
+        background: url("../images/Dual_option_2_mobile.jpg") center/cover no-repeat;
+        height: 90vh;
+    }
+
+    .hero img {
+        max-height: 8rem;
+        left: 0;
+    }
+    
+    .call-to-action p {
+        font-size: 1rem;
+    }
+    
+    .categories ol li {
+        width: 100%;
+    }
+    
+    .content {
+        margin: 1rem;
+    }
+    
+    .nieuwsletter {
+        padding: 3.5rem;
+        text-align: center;
+    }
+    
+    article {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .categories ol li {
+        width: 50%;
+    }
+    
+}
+
+/* Breakpoint #3 */
+
+@media screen and (max-width: 460px) {
+    article {
+        width: 100%;
+    }
 }
 
 /* Breakpoint #1 */
