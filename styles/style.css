@@ -42,11 +42,6 @@ h4 {
     text-transform: uppercase;
 }
 
-h5 {
-    font-size: 1rem;
-    font-weight: 300;
-}
-
 h6 {
     font-size: 1rem;
     font-weight: 700;
@@ -347,6 +342,12 @@ nav.main-nav ul li img {
     width: 100%;
 }
 
+.nieuwsletter h4 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
 /* Footer */
 
 footer {
@@ -379,7 +380,7 @@ footer ul li {
     padding: 0.25rem 0;
 }
 
-.footer-down h6 {
+.footer-down h5 {
     font-size: 1rem;
     text-transform: uppercase;
 }
@@ -764,6 +765,10 @@ article img {
     .categories ol li a {
         font-size: 1.5rem;
     }
+    
+    .nieuwsletter h4 {
+        font-size: 0.875rem;
+    }
 
     article {
         width: 33.333%;
@@ -804,7 +809,7 @@ article img {
         font-size: 1rem;
     }
     
-    footer summary, .footer-down h6 {
+    footer summary, .footer-down h5 {
         font-size: 0.875rem;
     }
     
@@ -868,7 +873,7 @@ article img {
         height: 8.75rem;
     }
     
-    footer summary, .footer-down h6 {
+    footer summary, .footer-down h5 {
         font-size: 0.75rem;
     }
     
