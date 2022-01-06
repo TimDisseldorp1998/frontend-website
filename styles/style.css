@@ -379,8 +379,9 @@ footer ul li {
     padding: 0.25rem 0;
 }
 
-.footer-down h4 {
+.footer-down h6 {
     font-size: 1rem;
+    text-transform: uppercase;
 }
 
 footer .slider {
