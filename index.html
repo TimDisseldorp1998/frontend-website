@@ -9,7 +9,7 @@
     <title>Gymshark 3.0</title>
 
     <link href="styles/style.css" rel="stylesheet" />
-    <link rel="icon" type="image/svg+xml" href="images/gymshark.png" />
+    <link rel="icon" type="image/svg+xml" href="images/gymshark.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -23,21 +23,23 @@
         </section>
 
         <section class="topbar">
-            <ul class="topbar__container">
-                <li class="topbar__item">
-                    <a href="#" class="topbar__link"><img src="./images/user.svg"><span class="topbar__nl">Mijn Account</span></a>
+            <ul>
+                <li>
+                    <a href="#" class="topbar__link">
+                        <img src="./images/user.svg" alt="icoon van mijn account"><span class="topbar__nl">Mijn Account</span></a>
                 </li>
-                <li class="topbar__item">
+                <li>
                     <a href="#" class="topbar__link">Blog</a>
                 </li>
-                <li class="topbar__item">
+                <li>
                     <a href="#" class="topbar__link">Nieuwsbrief</a>
                 </li>
-                <li class="topbar__item">
+                <li>
                     <a href="#" class="topbar__link">Hulp</a>
                 </li>
-                <li class="topbar__item">
-                    <a href="#" class="topbar__link"><img src="./images/dutch.png"><span class="topbar__nl">The Netherlands</span></a>
+                <li>
+                    <a href="#" class="topbar__link">
+                        <img src="./images/dutch.png" alt="nl-vlag"><span class="topbar__nl">The Netherlands</span></a>
                 </li>
             </ul>
         </section>
@@ -45,34 +47,34 @@
         <nav class="main-nav">
             <img class="logo-gs" src="images/logo.svg" alt="Gymshark icon" />
 
-            <img src="images/hamburger-menu.svg" class="hamburger-menu js-hamburger">
+            <img src="images/hamburger-menu.svg" alt="hamburger-menu" class="hamburger-menu js-hamburger">
 
             <ul class="nav-pages js-menu">
                 <li>
-                    <a href="heren-shop.html" class="nav-button">Dames</a>
+                    <a href="#" class="nav-button">Dames</a>
                 </li>
                 <li>
                     <a href="heren-shop.html" class="nav-button">Heren</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-button">Black Friday</a>
+                    <a href="index.html" class="nav-button">Black Friday</a>
                 </li>
             </ul>
 
             <ul class="nav-icons">
                 <li>
                     <a href="#">
-                        <img src="images/search.svg" alt="search icon" />
+                        <img src="images/search.svg" alt="search_icon" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="images/user.svg" alt="search icon" />
+                        <img src="images/wishlist.svg" alt="wishlist_icon" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="images/shopping-bag.svg" alt="search icon" />
+                        <img src="images/shopping-bag.svg" alt="shopping-bag_icon" />
                     </a>
                 </li>
             </ul>
@@ -88,7 +90,7 @@
 
         <section class="hero overlay">
             <img src="images/blackfriday.png" alt="Built your Black Friday whishlist" />
-            <a href="heren-shop.html" class="button">Dames</a>
+            <a href="#" class="button">Dames</a>
             <a href="heren-shop.html" class="button">Heren</a>
         </section>
 
@@ -96,15 +98,15 @@
             <h2>Nieuwe Hebberijen</h2>
             <p>Relaxen is een vibe</p>
             <a href="#" class="button">Shop dames</a>
-            <a href="#" class="button">Shop heren</a>
+            <a href="heren-shop.html" class="button">Shop heren</a>
         </section>
-       
+
         <section class="hero-nieuwsbrief">
             <h3>Meld je aan voor de nieuwsbrief en ontvang eenmalig 10% korting</h3>
             <a href="#" class="button">Ja, graag</a>
             <a href="#" class="button">FAQ</a>
         </section>
-        
+
         <section class="visually-hidden">
             <h3>Categories</h3>
         </section>
@@ -118,7 +120,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="heren-shop.html">
                         Shop Heren
                         <span class="button">Shop nu</span>
                     </a>
@@ -169,60 +171,185 @@
         </section>
 
     </main>
-
+    
     <footer>
         <section class="footer-up">
             <details>
                 <summary>Help</summary>
                 <ul>
-                    <li>FAQ</li>
-                    <li>Levering & retouren</li>
-                    <li>Retour Aanvragen</li>
-                    <li>Bestellingen</li>
-                    <li>Namaak Indienen</li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Levering &amp; retouren</a>
+                    </li>
+                    <li>
+                        <a href="#">Retour Aanvragen</a>
+                    </li>
+                    <li>
+                        <a href="#">Bestellingen</a>
+                    </li>
+                    <li>
+                        <a href="#">Namaak Indienen</a>
+                    </li>
                 </ul>
             </details>
 
             <details>
                 <summary>Mijn account</summary>
                 <ul>
-                    <li>Inloggen</li>
-                    <li>Registreer</li>
+                    <li>
+                        <a href="#">Inloggen</a>
+                    </li>
+                    <li>
+                        <a href="#">Registreer</a>
+                    </li>
                 </ul>
             </details>
 
             <details>
                 <summary>Pagina's</summary>
                 <ul>
-                    <li>Gymshark Central</li>
-                    <li>Banen</li>
-                    <li>Over Ons</li>
-                    <li>Transparency Report</li>
+                   <li>
+                        <a href="#">Gymshark Central</a>
+                    </li>
+                    <li>
+                        <a href="#">Banen</a>
+                    </li>
+                    <li>
+                        <a href="#">Over ons</a>
+                    </li>
+                    <li>
+                        <a href="#">Transparency Report</a>
+                    </li>
                 </ul>
             </details>
         </section>
 
-        <section class="footer-down">
-            <h5>Meer van Gymshark</h5>
-
-            <section class="slider">
-                <ol class="slider__container">
-                    <li class="slider-item">
-                        <a href="#">Blog</a>
-                    </li>
-                    <li class="slider-item">
-                        <a href="#">Nieuwsletter</a>
-                    </li>
-                    <li class="slider-item">
-                        <a href="#">Training</a>
-                    </li>
-                    <li class="slider-item">
-                        <a href="#">Kantoor</a>
-                    </li>
-                </ol>
-            </section>
+        <section class="slider">
+            <h6>Meer van Gymshark</h6>
+            <ol class="slider__container">
+                <li class="slider-item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="slider-item">
+                    <a href="#">Nieuwsletter</a>
+                </li>
+                <li class="slider-item">
+                    <a href="#">Gymshark training</a>
+                </li>
+            </ol>
         </section>
 
+        <section class="social">
+            <ul class="social__container">
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/discord.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/facebook.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/pinterest.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/youtube.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/instagram.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/twitter.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#">
+                        <img src="images/tiktok.svg" alt="#" />
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="taal">
+            <ul class="taal__container">
+                <li class="taal__item">
+                    <a href="#" class="taal__link">
+                        <img src="./images/dutch.png" /><span class="taal__nl">
+                            The Netherlands</span></a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="links">
+            <ul class="links__container">
+                <li class="links__item">
+                    <a href="#"> Terms and Conditions </a>
+                </li>
+                <li class="links__item">
+                    <a href="#"> Terms of Use </a>
+                </li>
+                <li class="links__item">
+                    <a href="#"> Privacy Verklaring </a>
+                </li>
+                <li class="links__item">
+                    <a href="#"> Cookie beleid </a>
+                </li>
+                <li class="links__item">
+                    <a href="#"> Modern Slavery </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="bankieren">
+            <ul class="bankieren__container">
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/visa-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/mastercard-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/amex-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/paypal-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/applepay-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/ideal-card.svg" alt="#" />
+                    </a>
+                </li>
+                <li class="bankieren__item">
+                    <a href="#">
+                        <img src="images/klarna.svg" alt="#" />
+                    </a>
+                </li>
+            </ul>
+        </section>
 
         <section class="last-line">
             <a>
