@@ -37,7 +37,13 @@ h3 {
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 1.1rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -218,6 +224,10 @@ nav.main-nav ul li img {
     padding: 16rem 2rem;
 }
 
+.call-to-action h3 {
+    color: #fff;
+}
+
 .call-to-action p {
     font-size: 1.25rem;
     color: #fff;
@@ -233,7 +243,7 @@ nav.main-nav ul li img {
     margin-right: 1rem;
 }
 
-.call-to-action h2 {
+.call-to-action h3 {
     width: 90%;
 }
 
@@ -537,7 +547,7 @@ footer .bankieren img {
     flex-wrap: wrap;
     align-content: center;
     position: relative;
-    padding: 10rem 6rem;
+    padding: 6rem 4rem;
 }
 
 .heren h1 {
@@ -783,8 +793,12 @@ article img {
 /* Breakpoint #1 */
 
 @media screen and (max-width: 62.5rem) {
-    h2, h3 {
+    h2, h3, h4 {
         font-size: 1.875rem;
+    }
+    
+    h5 {
+        font-size: 1rem;
     }
 
     .topbar__item {
@@ -866,9 +880,13 @@ article img {
 /* Breakpoint #2 */
 
 @media screen and (max-width: 44rem) {
-    h2, h3 {
+    h2, h3, h4 {
         font-size: 1.5rem;
         line-height: 2.25rem;
+    }
+    
+    h5 {
+        font-size: 0.9rem;
     }
     
     p {

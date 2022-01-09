@@ -236,17 +236,28 @@ Heren pagina
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. De visuele volgorde van elementen te beïnvloeden - gebruikt in de nav-bar: https://developer.mozilla.org/en-US/docs/Web/CSS/order
-2. Schuift de elementen onder elkaar met dezelfde witruimte, als de beeldresolutie veranderd: https://www.w3schools.com/css/css3_flexbox_container.asp
-3. Zorgt voor witruimte tussen rijen en kolommen in een raster, flex en meerkolomslayouts: https://css-tricks.com/almanac/properties/g/gap/
-4. CSS-tricks hulp met verschil tussen em en rem: https://css-tricks.com/confused-rem-em/
-5. Het bouwen van een responsieve navigatiebalk en hamburgermenu bouwen met HTML, CSS en Javascript: https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
-6. Media queries & flexbox & grid layout & microinteraction https://codepen.io/joostf/pen/MOxQex
-7. Het verbergen van content: https://www.a11yproject.com/posts/how-to-hide-content/
-8. Dan align je de items vanaf de baseline van de parent - https://css-tricks.com/almanac/properties/a/align-items/
-9. Gap - https://developer.mozilla.org/en-US/docs/Web/CSS/gap
-10. https://www.w3schools.com/jsref/met_document_addeventlistener.asp
-11. Pixels veranderen naar rem - https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
-
+1. Headersmap - https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en
+2. Voorbeeld van de juiste structuur met HTML - https://codepen.io/joostf/pen/MOxQex
+3. Hoe ik sections heb gebruikt in mijn HTML - https://css-tricks.com/how-to-section-your-html/
+4. Het maken van een structureel overzicht met behulp van headings - https://web.dev/headings-and-landmarks/
+5. Micro-interacties - https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/
+6. Verschillende hover:states - https://css-tricks.com/so-many-states/
+7. Uitleg over wat een micro-interactie is - https://www.youtube.com/watch?v=HZHHBwzmJLk&feature=youtu.be
+8. Focus states - https://css-tricks.com/focusing-on-focus-styles/
+9. Alle tips en tricks over flex-box - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+10. Media queries & flexbox & grid layout & microinteraction https://codepen.io/joostf/pen/MOxQex 
+11. De visuele volgorde van elementen te beïnvloeden - gebruikt in de nav-bar: https://developer.mozilla.org/en-US/docs/Web/CSS/order
+12. Schuift de elementen onder elkaar met dezelfde witruimte, als de beeldresolutie veranderd: https://www.w3schools.com/css/css3_flexbox_container.asp
+13. Zorgt voor witruimte tussen rijen en kolommen in een raster, flex en meerkolomslayouts: https://css-tricks.com/almanac/properties/g/gap/
+14. CSS-tricks hulp met verschil tussen em en rem: https://css-tricks.com/confused-rem-em/
+15. Het bouwen van een responsieve navigatiebalk en hamburgermenu bouwen met HTML, CSS en Javascript: https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+16. Het verbergen van content: https://www.a11yproject.com/posts/how-to-hide-content/
+17. Dan align je de items vanaf de baseline van de parent - https://css-tricks.com/almanac/properties/a/align-items/
+18. Wat is precies Gap en hoe ga je dit toepassen in je website - https://developer.mozilla.org/en-US/docs/Web/CSS/gap
+19. Hoe gebruik je addEventListener met Javascript - https://www.w3schools.com/jsref/met_document_addeventlistener.asp
+20. Responsive maken van een website met behulp van media query - https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+21. Wat is en hoe gebruik je justify-content baseline - https://www.smashingmagazine.com/2012/12/css-baseline-the-good-the-bad-and-the-ugly/
+22. Hoe geef je een tweede of derde element een andere kleur - https://www.w3schools.com/cssref/sel_nth-of-type.asp
+23. Het verstoppen van de headings met behulp van .visual hidden - https://www.a11yproject.com/posts/how-to-hide-content/
 
 </details>
