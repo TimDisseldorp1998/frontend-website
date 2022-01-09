@@ -1,11 +1,7 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Welkom bij mijn procesverslag waar ik de afgelopen weken aan heb gewerkt. Hieronder vind je alle informatie over het (re)design van de website van Gymshark. Daarbij vertel ik alle bevindingen die uit de toegankelijkheidstest zijn gekomen. Ook vertel ik wat ik erg moeilijk vond om te coderen en waar het een aantal keer fout ging. Ook zijn er nog momenten geweest dat ik echt zwaar geirriteerd werd als iets niet lukt, maar goed dat hoort erbij. Meestal is er dan 1 klein dingetje fout geschreven en dan moet je die proberen op te lossen. Ook vertel ik wat er erg goed ging de afgelopen weken en waar ik niet heel veel moeite mij had. 
 
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
+Marvin heeft mij de afgelopen weken geholpen als ik niet wist hoe ik verder moest of als een code niet werkten. Hij heeft uitgelegd wat er fout ging en welke bronnen ik moest gebruiken om dit op te lossen (zie bronnenlijst). Ook wil ik Joost Faber bedanken voor de feedbacksessie, waardoor dit een mooi eindresultaat is geworden. 
 
 ## Je website
 
