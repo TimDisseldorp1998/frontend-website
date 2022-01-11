@@ -75,11 +75,11 @@ button,
 }
 
 .button:focus {
-    outline: 3px solid #6716E7;
+    outline: 0.2rem solid #6716E7;
 }
 
 .ml-button:focus {
-    outline: 3px solid #6716E7;
+    outline: 0.2rem solid #6716E7;
 }
 
 .hero {
@@ -394,7 +394,7 @@ footer ul li {
 
 footer .slider {
     padding: 0;
-    max-width: 750px;
+    max-width: 47rem;
     overflow-x: scroll;
     z-index: 1;
 }
@@ -695,7 +695,7 @@ article img {
 }
 
 .korting {
-    font-size: 11px;
+    font-size: 0.6875rem;
     font-weight: 600;
     width: 50%;
     color: rgb(191, 46, 53);
